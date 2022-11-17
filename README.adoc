@@ -1,0 +1,23 @@
+= Spring Cloud Data Flow Batch example =
+
+This is a simple example about the use of Spring Cloud Data Flow Batch Processing.
+
+In this example we run a job and save it to the Database Base. This Job can be run it from
+the application or with Spring Cloud Data Flow Server.
+
+If you want more information you can take a look into: https://refactorizando.com/batch-spring-cloud-data-flow
+
+
+== How does it work?
+
+This is a simple batch application. So you can run it as a normal Spring Boot Application
+or install it in a Spring Cloud Data Flow Server and work with it as a Batch Application.
+
+To install in a Spring Cloud Data Flow Server (SCDFS) you can follow the following steps:
+
+* Run Spring Cloud Data Flow Server
+* Create a Jar of this application
+* Create a new Application in SCDFS
+* Create a new Task and Launch it
+
+Once the task is finished the status will be completed.
